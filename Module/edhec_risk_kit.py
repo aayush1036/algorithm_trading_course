@@ -1,3 +1,6 @@
+import numpy as np
+import pandas as pd
+
 def drawdown(return_series: pd.Series):
     """
     Takes a Time Series of asset returns and computes and returns a dataframe that contains
